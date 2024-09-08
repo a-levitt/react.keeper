@@ -6,8 +6,9 @@ function Footer() {
 
     return (
         <>
-            <p>Created by {name}</p>
-            <p>Copyright {currentYear}</p>
+            <footer>
+                <p>Created by {name} © {currentYear}</p>
+            </footer>
         </>
     )
 }
